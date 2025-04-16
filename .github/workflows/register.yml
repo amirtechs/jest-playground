@@ -6,6 +6,10 @@ on:
   pull_request:
     branches: [ feat/api-setup ]
   workflow_dispatch: # manual trigger
+<<<<<<< HEAD:.github/workflows/register.yaml
+=======
+
+>>>>>>> f60cb23 (add workflow_dispatch):.github/workflows/register.yml
 
 jobs:
   test:
