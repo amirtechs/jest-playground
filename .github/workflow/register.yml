@@ -1,11 +1,11 @@
 name: API Test JEST Playground
 
 on:
-  workflow_dispatch: # manual trigger
+  # workflow_dispatch: # manual trigger
   # push:
   #   branches: [ main ]
-  # pull_request:
-  #   branches: [ feat/api-setup ]
+  pull_request:
+    branches: [ feat/api-setup ]
 
 jobs:
   test:
