@@ -7,7 +7,6 @@ on:
     branches: [ feat/api-setup ]
   workflow_dispatch: # manual trigger
 
-
 jobs:
   test:
     runs-on: ubuntu-latest
